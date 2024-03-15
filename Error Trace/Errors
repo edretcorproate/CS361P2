@@ -1,0 +1,16 @@
+java.lang.AssertionError: expected: java.util.LinkedHashSet<[b, a]> but was: java.util.ImmutableCollections$Set12<[b, a]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at test.nfa.NFATest.test1_4(NFATest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+java.lang.AssertionError: expected:<[b, a]> but was:<[a, b]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at test.nfa.NFATest.test1_4(NFATest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
